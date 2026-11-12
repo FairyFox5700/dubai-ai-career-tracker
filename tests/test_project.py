@@ -15,6 +15,11 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual(["staff", "principal"], config["seniority"]["excluded"])
         companies = {source["company"] for source in config["sources"]}
         self.assertTrue({"Databricks", "OpenAI", "Anthropic", "Celonis", "Palantir", "AWS", "Salesforce", "NVIDIA"}.issubset(companies))
+        self.assertTrue({"Visa", "Cloudflare", "Elastic", "talabat", "Oracle", "LinkedIn discovery"}.issubset(companies))
+        linkedin = next(source for source in config["sources"] if source["kind"] == "linkedin")
+        self.assertEqual(6, len(linkedin["queries"]))
+        self.assertLessEqual(linkedin["pages"], 3)
+        self.assertGreater(linkedin["delay_seconds"], 0)
 
     def test_site_contains_complete_visible_sponsorship_strategy(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -34,6 +39,11 @@ class ProjectTests(unittest.TestCase):
             self.assertIn(value, html)
         for token in ("localStorage", "score.breakdown", "refresh-report.json", "HYPERLINK", "raw_application_url", "download"):
             self.assertIn(token, js)
+        self.assertIn('id="source-filter"', html)
+        self.assertIn("active roles", html)
+        self.assertIn("linkedin_discovery", js)
+        self.assertIn("LinkedIn discovery", js)
+        self.assertNotIn("Verified Dubai roles", html)
 
     def test_workflows_use_required_action_majors_and_no_secrets(self):
         combined = "\n".join(path.read_text(encoding="utf-8") for path in (ROOT / ".github" / "workflows").glob("*.yml"))

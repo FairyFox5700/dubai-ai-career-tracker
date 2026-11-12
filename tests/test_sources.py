@@ -15,6 +15,66 @@ class FakeResponse(io.BytesIO):
 
 
 class SourceTests(unittest.TestCase):
+    def test_smartrecruiters_fetch_paginates_and_enriches_details(self):
+        calls = []
+        page = {"totalFound": 1, "content": [{"id": "dh-1", "name": "Senior AI Architect"}]}
+        detail = {"id": "dh-1", "name": "Senior AI Architect", "jobAd": {"sections": {"jobDescription": {"text": "AI delivery"}}}}
+
+        def opener(request, timeout=0):
+            calls.append(request.full_url)
+            body = detail if request.full_url.endswith("/dh-1") else page
+            return FakeResponse(json.dumps(body).encode())
+
+        payload = fetch_source({"kind": "smartrecruiters", "company_id": "DeliveryHero"}, opener=opener)
+        self.assertEqual("AI delivery", payload["content"][0]["jobAd"]["sections"]["jobDescription"]["text"])
+        self.assertEqual(2, len(calls))
+
+    def test_oracle_fetch_uses_site_and_uae_location_and_enriches_details(self):
+        seen = []
+        search = {"items": [{"requisitionList": [{"Id": "348579", "Title": "Senior Technical Architect - Healthcare", "PrimaryLocation": "United Arab Emirates"}]}]}
+        detail = {"items": [{"Id": "348579", "ExternalDescriptionStr": "Customer cloud architecture", "PrimaryLocation": "United Arab Emirates"}]}
+
+        def opener(request, timeout=0):
+            seen.append(request.full_url)
+            body = detail if "recruitingCEJobRequisitionDetails" in request.full_url else search
+            return FakeResponse(json.dumps(body).encode())
+
+        payload = fetch_source({
+            "kind": "oracle",
+            "base_url": "https://oracle.example/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+            "details_url": "https://oracle.example/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails",
+            "site": "CX_45001", "location": "United Arab Emirates",
+        }, opener=opener)
+        query = parse_qs(urlparse(seen[0]).query)
+        self.assertIn("siteNumber=CX_45001", query["finder"][0])
+        self.assertIn("location=United Arab Emirates", query["finder"][0])
+        self.assertEqual(["requisitionList"], query["expand"])
+        self.assertEqual("Customer cloud architecture", payload["items"][0]["ExternalDescriptionStr"])
+
+    def test_linkedin_guest_search_is_bounded_delayed_and_fail_soft(self):
+        calls, sleeps = [], []
+
+        def opener(request, timeout=0):
+            calls.append(request.full_url)
+            if "keywords=AI+Architect" in request.full_url and "start=25" in request.full_url:
+                raise OSError("rate limited")
+            return FakeResponse(b'<div data-entity-urn="urn:li:jobPosting:1"></div>')
+
+        html = fetch_source({
+            "kind": "linkedin", "queries": ["AI Architect", "AI Engineer"],
+            "location": "Dubai", "pages": 2, "delay_seconds": 0.25,
+        }, opener=opener, sleeper=sleeps.append)
+        self.assertEqual(4, len(calls))
+        self.assertEqual([0.25, 0.25, 0.25], sleeps)
+        self.assertIn("jobPosting:1", html)
+
+    def test_linkedin_all_request_failures_raise_for_stale_preservation(self):
+        def opener(request, timeout=0):
+            raise OSError("blocked")
+
+        with self.assertRaises(RuntimeError):
+            fetch_source({"kind": "linkedin", "queries": ["AI Architect"], "pages": 1}, opener=opener, sleeper=lambda _: None)
+
     def test_amazon_fetch_uses_dubai_query(self):
         seen = []
 

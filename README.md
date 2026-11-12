@@ -1,6 +1,6 @@
 # Dubai AI Career Tracker
 
-A Dubai-only, local-first tracker for Iryna Tyshchenko's move from Software Engineer II / AI Engineer at Microsoft Dublin into senior, lead, or architect-level customer-facing AI delivery roles. The dashboard combines current roles from official public career feeds with a practical UAE sponsorship strategy.
+A Dubai-only, local-first tracker for Iryna Tyshchenko's move from Software Engineer II / AI Engineer at Microsoft Dublin into senior, lead, or architect-level customer-facing AI delivery roles. The dashboard combines verified-open roles from official public career feeds, clearly labeled discovery from LinkedIn's public guest search, and a practical UAE sponsorship strategy.
 
 This is a static, local-first GitHub Pages tracker. It has no analytics, backend, secrets, or third-party Python packages; personal pipeline statuses remain only in the browser.
 
@@ -26,8 +26,9 @@ python -m compileall -q career_tracker scripts
 
 - **Location:** Dubai is a hard filter. A UAE-remote posting is accepted only when its official location explicitly covers the UAE and therefore Dubai. Abu Dhabi-only roles are excluded.
 - **Seniority:** keeps Senior, Sr., Snr, Lead, and Architect; excludes Staff and Principal even when the title also contains Lead.
-- **Role family:** hands-on engineering plus architecture plus enterprise customers: Forward Deployed, Applied AI/Value, Customer/Field, Solutions/Delivery Architect, Deployment, and Technical Consultant roles.
-- **Open status:** a role must be present in a live official ATS/career feed. HTTP 200 alone is not enough; Workday detail records must remain applyable.
+- **Role family:** explicit senior AI delivery families include Forward Deployed, AI platform/systems/implementation, Applied AI/Value, Customer/Field/Success, Solutions/Delivery/Integration/Technical Architect, Professional Services, Solutions Consulting, and the exact Senior Technical Account Manager exception. Generic software, cloud, data, ML, consulting, and architecture titles still require explicit AI or customer-delivery evidence.
+- **Exclusions:** Staff and Principal always fail. Explicit people-management patterns fail except the exact Senior Technical Account Manager title. Arabic required/native/fluent/mandatory fails from the full description; Arabic preferred or nice-to-have does not.
+- **Open status:** official records are `verified_open`; LinkedIn guest cards are `linkedin_active` discovery only. LinkedIn is never represented as official verification. HTTP 200 alone is not enough; Workday detail records must remain applyable.
 - **Compensation:** only explicit AED or EUR ranges from the official posting are shown. Missing pay stays “Not posted”; there are no estimates.
 - **Sponsorship:** listing evidence is classified as explicit sponsorship, relocation support, normal employer-sponsored UAE permit pathway, unknown, or explicit no-sponsorship. The normal UAE pathway is not represented as a promise by a particular employer.
 - **Failures:** adapters are isolated. A failed source preserves its prior records as stale/source-error records and excludes them from the live count.
@@ -39,16 +40,21 @@ python -m compileall -q career_tracker scripts
 - Lever public posting API: Palantir
 - Amazon Jobs official JSON search: AWS
 - Workday public career endpoints plus applyability detail checks: Salesforce, NVIDIA
+- Workday: Visa
+- Greenhouse: Cloudflare, Elastic
+- SmartRecruiters: Delivery Hero/talabat
+- Oracle Recruiting Cloud: Oracle (UAE search; strict Dubai normalization still applies)
+- LinkedIn public guest discovery: six bounded Dubai title queries, two pages per query, delayed between requests, fail-soft, and cross-source deduplicated in favor of official records
 
-Microsoft, Google Cloud, Oracle, IBM, ServiceNow, G42/Core42/Presight, Careem, and Accenture were considered, but are not configured where a stable, public, unattended feed could not be verified. The app does not fill gaps with aggregators.
+SAP had strong official matches during research, but its automated career site was Cloudflare-blocked, so no stale static records were fabricated. Microsoft's only current match was an Emirati-only apprenticeship and was excluded. Google Cloud, IBM, ServiceNow, G42/Core42/Presight, Careem, and Accenture are not configured where a stable public unattended feed could not be verified.
 
 ## Dashboard
 
-- Search and filter by company, sponsorship evidence, minimum score, and local pipeline status.
+- Search and filter by company, source confidence, sponsorship evidence, minimum score, and local pipeline status.
 - Inspect the full factor breakdown and official evidence excerpt.
 - Keep progress in browser `localStorage`: New, Reviewing, Shortlisted, Applied, Interviewing, Offer, Rejected, Withdrawn, or Archived.
 - Review per-source health and the latest generation timestamp.
-- Export the filtered view to CSV with both the raw official URL and a spreadsheet-clickable `HYPERLINK` formula. Untrusted text is formula-injection protected.
+- Export the filtered view to CSV with source status, the raw source URL, and a spreadsheet-clickable `HYPERLINK` formula. Untrusted text is formula-injection protected.
 - Read a visible sponsorship strategy covering the employment-visa workflow, target tiers, CV positioning, recruiter questions, red flags, cadence, networking, and offer diligence.
 
 ## UAE visa sources
@@ -64,7 +70,7 @@ Re-check the linked government guidance before relying on it; immigration proced
 ## Automation
 
 - `ci.yml`: tests and compile check.
-- `refresh.yml`: daily official-source refresh and generated-data commit.
+- `refresh.yml`: daily official plus LinkedIn-discovery refresh and generated-data commit.
 - `pages.yml`: explicit GitHub Pages deployment.
 
 All workflows use GitHub's built-in permissions and current requested action majors. They reference no repository secrets.
