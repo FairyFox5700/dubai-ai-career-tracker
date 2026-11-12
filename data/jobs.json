@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-11-12T08:41:43Z",
+  "live_job_count": 8,
+  "total_with_stale": 8,
+  "jobs": [
+    {
+      "id": "AWS:10506880",
+      "source_id": "10506880",
+      "company": "AWS",
+      "title": "Snr Solution Architect, UAE Enterprise",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://www.amazon.jobs/en/jobs/10506880/snr-solution-architect-uae-enterprise",
+      "posted_at": "August 19, 2026",
+      "description_excerpt": "Amazon Web Services (AWS) is looking for a Senior Solutions Architect to join our Commercial Sector Enterprise team in the UAE. You will work directly with customers in Media and Entertainment organizations navigating complex digital transformations where the technology strategy is not yet defined and the right path forward requires both technical depth and business judgment. This is a builder role. You will go into customer environments, understand their hardest problems, and design solutions that work — from whiteboard architecture through proof of concept to production. You will bring deep expertise across cloud infrastructure, modern application development, data and analytics, and incre",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "amazon_jobs",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 78,
+        "breakdown": {
+          "hands_on_engineering": 20,
+          "ai_cloud": 20,
+          "architecture": 15,
+          "customer_delivery": 15,
+          "profile_skills": 0,
+          "sponsorship": 6,
+          "freshness_source": 2
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "Celonis:8068099003",
+      "source_id": "8068099003",
+      "company": "Celonis",
+      "title": "Lead Applied Value Engineer - AI & Process Intelligence Consultant",
+      "location": "Remote — United Arab Emirates (Dubai eligible)",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/8068099003?gh_jid=8068099003",
+      "posted_at": "2026-10-29T04:07:27-04:00",
+      "description_excerpt": "Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots into operational clarity. World's leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and processes work together, achieving transformational outcomes. We believe there's a massive opportunity to unlock global productivity and sustainability by giving AI the context to understand how every business process really works. Join our mission to make proces",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "greenhouse",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 73,
+        "breakdown": {
+          "hands_on_engineering": 20,
+          "ai_cloud": 20,
+          "architecture": 4,
+          "customer_delivery": 15,
+          "profile_skills": 3,
+          "sponsorship": 6,
+          "freshness_source": 5
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "Salesforce:JR349012",
+      "source_id": "JR349012",
+      "company": "Salesforce",
+      "title": "Lead AI Forward Deployed Engineer,",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Arab-Emirates---Dubai/Lead-AI-Forward-Deployed-Engineer-_JR349012",
+      "posted_at": "2026-11-10",
+      "description_excerpt": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. Job Category Sales Job Details About Salesforce Salesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all. Ready to level-up your career at the company leading workforce transformation in the a",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "workday",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 73,
+        "breakdown": {
+          "hands_on_engineering": 20,
+          "ai_cloud": 20,
+          "architecture": 4,
+          "customer_delivery": 15,
+          "profile_skills": 3,
+          "sponsorship": 6,
+          "freshness_source": 5
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "NVIDIA:JR2026423",
+      "source_id": "JR2026423",
+      "company": "NVIDIA",
+      "title": "Solutions Architect - AI Factory, North Africa",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UAE-Dubai/Solutions-Architect---AI-Factory--North-Africa_JR2026423",
+      "posted_at": "2026-09-29",
+      "description_excerpt": "We are looking for a Solutions Architect – AI Factory with experience in designing, building, and maintaining large-scale AI factories to join our team at NVIDIA. In this role, you’ll connect real-world customer workloads to NVIDIA’s hardware and software ecosystem, helping developers and enterprises adopt and scale our platforms. We’re looking for someone with strong technical depth who can serve as a trusted advisor, bridge complex challenges to innovative solutions, and grow into a strategic resource for the customers and partners you support. If you’re excited about applied technology and enabling others to succeed with advanced platforms, we’d love to hear from you. What you'll be doing",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "workday",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 66,
+        "breakdown": {
+          "hands_on_engineering": 6,
+          "ai_cloud": 20,
+          "architecture": 15,
+          "customer_delivery": 15,
+          "profile_skills": 0,
+          "sponsorship": 6,
+          "freshness_source": 4
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "NVIDIA:JR2026419",
+      "source_id": "JR2026419",
+      "company": "NVIDIA",
+      "title": "Solutions Architect - AI Factory, South Africa",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UAE-Dubai/Solutions-Architect---AI-Factory--South-Africa_JR2026419",
+      "posted_at": "2026-09-29",
+      "description_excerpt": "We are looking for a Solutions Architect – AI Factory with experience in designing, building, and maintaining large-scale AI factories to join our team at NVIDIA. In this role, you’ll connect real-world customer workloads to NVIDIA’s hardware and software ecosystem, helping developers and enterprises adopt and scale our platforms. We’re looking for someone with strong technical depth who can serve as a trusted advisor, bridge complex challenges to innovative solutions, and grow into a strategic resource for the customers and partners you support. If you’re excited about applied technology and enabling others to succeed with advanced platforms, we’d love to hear from you! What you'll be doing",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "workday",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 66,
+        "breakdown": {
+          "hands_on_engineering": 6,
+          "ai_cloud": 20,
+          "architecture": 15,
+          "customer_delivery": 15,
+          "profile_skills": 0,
+          "sponsorship": 6,
+          "freshness_source": 4
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "AWS:10533911",
+      "source_id": "10533911",
+      "company": "AWS",
+      "title": "Solutions Architect, CS MENAT",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://www.amazon.jobs/en/jobs/10533911/solutions-architect-cs-menat",
+      "posted_at": "September  9, 2026",
+      "description_excerpt": "Amazon Web Services (AWS) is looking for experienced and motivated technologists who possess a unique balance of technical depth and strong interpersonal skills. You will partner with customers, AWS Sales and several other AWS teams to craft highly scalable, flexible and resilient cloud architectures that address customer business problems and accelerate the adoption of AWS services. In collaboration with sales, you will drive revenue growth across a broad set of customers. As a trusted customer advocate, the solutions architect will help organizations understand best practices around advanced cloud-based solutions, and how to migrate existing workloads to the cloud. You will have the opport",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "amazon_jobs",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 64,
+        "breakdown": {
+          "hands_on_engineering": 6,
+          "ai_cloud": 20,
+          "architecture": 15,
+          "customer_delivery": 15,
+          "profile_skills": 0,
+          "sponsorship": 6,
+          "freshness_source": 2
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "Celonis:7800552003",
+      "source_id": "7800552003",
+      "company": "Celonis",
+      "title": "Lead Applied Value Engineer",
+      "location": "Remote — United Arab Emirates (Dubai eligible)",
+      "url": "https://job-boards.greenhouse.io/celonis/jobs/7800552003?gh_jid=7800552003",
+      "posted_at": "2026-09-30T08:39:15-04:00",
+      "description_excerpt": "Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots into operational clarity. World's leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and processes work together, achieving transformational outcomes. We believe there's a massive opportunity to unlock global productivity and sustainability by giving AI the context to understand how every business process really works. Join our mission to make proces",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "greenhouse",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 60,
+        "breakdown": {
+          "hands_on_engineering": 20,
+          "ai_cloud": 20,
+          "architecture": 4,
+          "customer_delivery": 3,
+          "profile_skills": 3,
+          "sponsorship": 6,
+          "freshness_source": 4
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    },
+    {
+      "id": "AWS:10580489",
+      "source_id": "10580489",
+      "company": "AWS",
+      "title": "Snr Solution Architect, UAE Enterprise",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://www.amazon.jobs/en/jobs/10580489/snr-solution-architect-uae-enterprise",
+      "posted_at": "October 15, 2026",
+      "description_excerpt": "Amazon Web Services (AWS) is looking for a Senior Solutions Architect to join our Commercial Sector Enterprise team in the UAE. You will work with some of the region's largest and most influential organisations in Financial Services, Retail, Travel & Hospitality, and Media. These are enterprises with complex technology estates, demanding regulatory and operational requirements, and big ambitions for what the cloud and AI can unlock next. This is a role for a trusted technical advisor. You will earn a seat at the table with senior business and technology leaders and understand the business priorities behind their technology decisions. You will design architectures that help them scale, modern",
+      "sponsorship_status": "employer_work_permit",
+      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
+      "compensation": null,
+      "source": "amazon_jobs",
+      "source_status": "official",
+      "open_status": "verified_open",
+      "stale": false,
+      "score": {
+        "total": 52,
+        "breakdown": {
+          "hands_on_engineering": 6,
+          "ai_cloud": 20,
+          "architecture": 15,
+          "customer_delivery": 3,
+          "profile_skills": 0,
+          "sponsorship": 6,
+          "freshness_source": 2
+        },
+        "sponsorship_red_flag": false,
+        "compensation_status": "not_posted"
+      }
+    }
+  ]
+}

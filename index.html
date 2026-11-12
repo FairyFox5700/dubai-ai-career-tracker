@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dubai-only AI career opportunities and UAE sponsorship strategy for Iryna Tyshchenko.">
+  <title>Dubai AI Career Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23123d2e'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='%23c8f05a'%3EDXB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#roles">Skip to roles</a>
+  <header class="hero">
+    <nav class="nav shell" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Dubai AI Career Tracker home"><span class="brand-mark">DXB</span><span>AI Career Tracker</span></a>
+      <div class="nav-links"><a href="#roles">Roles</a><a href="#strategy">Sponsorship strategy</a><a href="#source-health">Source health</a></div>
+    </nav>
+    <div class="shell hero-grid" id="top">
+      <div>
+        <p class="eyebrow">DUBAI · AI DELIVERY · CUSTOMER ENGINEERING</p>
+        <h1>Build AI where<br><span>ambition ships.</span></h1>
+        <p class="lede">A focused path from Microsoft Dublin to hands-on AI engineering, architecture, and enterprise delivery in Dubai.</p>
+        <div class="hero-actions"><a class="button primary" href="#roles">Explore verified roles</a><a class="button ghost" href="#strategy">Plan sponsorship</a></div>
+      </div>
+      <aside class="profile-card" aria-label="Target profile">
+        <p class="label">POSITIONING</p>
+        <h2>Iryna Tyshchenko</h2>
+        <p>Software Engineer II / AI Engineer · Microsoft</p>
+        <div class="profile-rule"></div>
+        <ul class="tag-list"><li>Azure AI Foundry</li><li>Agents + RAG</li><li>C# / Python / TypeScript</li><li>Customer delivery</li><li>Kubernetes + Terraform</li></ul>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="metrics shell" aria-label="Tracker summary">
+      <article><span id="metric-live">—</span><p>verified live roles</p></article>
+      <article><span id="metric-companies">—</span><p>companies represented</p></article>
+      <article><span id="metric-sources">—</span><p>sources responding</p></article>
+      <article><span id="metric-updated">—</span><p>last refresh</p></article>
+    </section>
+
+    <section class="section shell" id="roles">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">OPPORTUNITY BOARD</p><h2>Verified Dubai roles</h2><p>Official career sources only. Dubai is a hard location filter.</p></div>
+        <button class="button export" id="export-csv" type="button">Export filtered CSV</button>
+      </div>
+      <div class="filters" aria-label="Role filters">
+        <label>Search<input id="search-filter" type="search" placeholder="AI, architect, company…"></label>
+        <label>Company<select id="company-filter"><option value="">All companies</option></select></label>
+        <label>Sponsorship<select id="sponsorship-filter"><option value="">All evidence</option><option value="explicit_sponsorship">Explicit sponsorship</option><option value="employer_work_permit">Employer permit pathway</option><option value="relocation_support">Relocation support</option><option value="unknown">Unknown</option><option value="explicit_no_sponsorship">No sponsorship</option></select></label>
+        <label>Pipeline<select id="status-filter"><option value="">All statuses</option><option value="new">New</option><option value="reviewing">Reviewing</option><option value="shortlisted">Shortlisted</option><option value="applied">Applied</option><option value="interviewing">Interviewing</option><option value="offer">Offer</option><option value="rejected">Rejected</option><option value="withdrawn">Withdrawn</option><option value="archived">Archived</option></select></label>
+        <label>Minimum score<select id="score-filter"><option value="0">Any score</option><option value="70">70+</option><option value="80">80+</option><option value="90">90+</option></select></label>
+      </div>
+      <p class="result-line" id="result-line" aria-live="polite">Loading verified roles…</p>
+      <div class="job-list" id="job-list"></div>
+      <div class="empty-state" id="empty-state" hidden><h3>No roles match these filters.</h3><p>Clear a filter or check the source-health panel.</p></div>
+    </section>
+
+    <section class="strategy section" id="strategy">
+      <div class="shell">
+        <div class="section-heading light"><div><p class="eyebrow">RELOCATION PLAYBOOK</p><h2>Sponsorship Strategy</h2><p>Practical steps, hard questions, and offer safeguards for a Dubai move.</p></div><span class="strategy-note">Re-verify government rules before acting</span></div>
+        <div class="strategy-grid">
+          <article class="strategy-card wide"><span class="step">01</span><h3>UAE employment visa workflow</h3><ol><li>Secure a signed offer from a UAE employer; do not start work on a tourist or visit visa.</li><li>The employer applies for the MOHRE work permit or the relevant free-zone authorization.</li><li>Complete entry-status change if needed, medical fitness screening, Emirates ID biometrics, health insurance, and residence formalities.</li><li>Verify that the contract matches the signed offer before final approval.</li></ol><p class="source-line">Primary guidance: <a href="https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts" target="_blank" rel="noopener">UAE Government</a> · <a href="https://www.mohre.gov.ae/en/services/work-permit-for-recruiting-a-worker-from-outside-the-state-2022" target="_blank" rel="noopener">MOHRE overseas work permit</a></p></article>
+          <article class="strategy-card"><span class="step">02</span><h3>Target-employer tiers</h3><p><strong>Tier 1:</strong> multinational employers with established UAE mobility teams—Microsoft, Google Cloud, AWS, Salesforce, NVIDIA, Oracle, IBM, ServiceNow, Databricks.</p><p><strong>Tier 2:</strong> well-funded AI and technology leaders—G42/Core42/Presight, Careem, Palantir, Celonis.</p><p><strong>Tier 3:</strong> consulting firms with UAE delivery demand. Confirm the employing entity, permit route, bench policy, and client-site expectations.</p></article>
+          <article class="strategy-card"><span class="step">03</span><h3>Position the CV</h3><ul><li>Lead with “AI Engineer who ships enterprise agents from architecture to production.”</li><li>Quantify customer outcomes, adoption, quality, latency, cost, and evaluation gains.</li><li>Cluster Azure AI Foundry, Copilot Studio, RAG, Azure AI Search, and evaluation into one deployment story.</li><li>Show C#/.NET, Python, TypeScript, Kubernetes, Terraform, and distributed-systems depth—not only demos.</li><li>Add “Open to Dubai relocation; employer-sponsored UAE work authorization required.”</li></ul></article>
+          <article class="strategy-card"><span class="step">04</span><h3>Recruiter questions</h3><ul><li>Will the UAE employing entity sponsor the work permit and residence visa for this role?</li><li>Is relocation support separate from immigration processing?</li><li>Are any costs recoverable if I leave during probation?</li><li>Which office, free zone, and legal entity appear on the contract?</li><li>Is Arabic required in practice, and how much customer-site travel is expected?</li></ul></article>
+          <article class="strategy-card danger"><span class="step">05</span><h3>Red flags</h3><ul><li><strong>Visit-visa work:</strong> do not agree to perform productive work before valid authorization.</li><li><strong>Candidate-paid visa costs:</strong> reject requests to pay recruitment, permit, or residency processing fees to an employer or agent.</li><li>Personal bank accounts, crypto transfers, WhatsApp-only interviews, pressure to resign before a verified contract, or mismatched offer and MOHRE terms.</li></ul><p class="source-line"><a href="https://u.ae/en/information-and-services/jobs/working-in-uae" target="_blank" rel="noopener">UAE Government: preparing to work</a></p></article>
+          <article class="strategy-card"><span class="step">06</span><h3>Application cadence</h3><p><strong>Weekly:</strong> 5 high-fit applications, 5 targeted referrals, and 2 recruiter conversations. Apply within 72 hours when possible. Spend 80% of effort on Tier 1/2 employers and 20% on carefully screened consulting roles.</p><p>Track response, referral, interview, and offer conversion every Friday; change messaging before increasing volume.</p></article>
+          <article class="strategy-card"><span class="step">07</span><h3>Networking</h3><ul><li>Ask Microsoft alumni and Azure customers now based in the UAE for role calibration—not generic referrals.</li><li>Contact Dubai AI, cloud, platform, and professional-services leaders with one relevant delivery story.</li><li>Use GITEX, AI Everything, Microsoft/AWS/Google user groups, and technical meetups to build repeated contact.</li><li>Request a referral only after validating team, level, location, and sponsorship route.</li></ul></article>
+          <article class="strategy-card wide"><span class="step">08</span><h3>Offer due diligence</h3><div class="due-grid"><ul><li>Legal employing entity and work location</li><li>Base salary and any allowances in AED</li><li>Bonus target, equity, sign-on, relocation</li><li>Health insurance coverage and dependants</li></ul><ul><li>Probation, notice, non-compete, clawbacks</li><li>Annual leave, flights, remote-work policy</li><li>Permit/visa owner, timeline, family support</li><li>Offer-to-contract consistency and start gate</li></ul></div><p>Do not compare packages using an invented EUR conversion. Record only explicit offer values and use a current exchange rate at decision time.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="source-health">
+      <div class="section-heading"><div><p class="eyebrow dark">DATA QUALITY</p><h2>Source health</h2><p>A successful source may legitimately return zero matching Dubai roles.</p></div><a class="text-link" href="data/jobs.csv">Download generated CSV</a></div>
+      <div class="health-grid" id="health-grid"></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><p>Local-first. Official sources. No applications are submitted.</p><p>Built for Iryna · Dubai AI Career Tracker</p></div></footer>
+</body>
+</html>

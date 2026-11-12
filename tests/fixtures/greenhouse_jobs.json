@@ -1,0 +1,9 @@
+{
+  "jobs": [
+    {"id": 101, "title": "Lead Applied Value Engineer", "location": {"name": "Remote, United Arab Emirates"}, "absolute_url": "https://jobs.example/101", "updated_at": "2026-11-10T00:00:00Z", "content": "&lt;div class=&quot;intro&quot;&gt;&lt;p&gt;Customer architecture and hands-on delivery.&lt;/p&gt;&lt;/div&gt;"},
+    {"id": 102, "title": "Lead Applied Value Engineer - AI & Process Intelligence Consultant", "location": {"name": "Dubai, United Arab Emirates"}, "absolute_url": "https://jobs.example/102", "updated_at": "2026-11-11T00:00:00Z", "content": "Relocation and immigration support are available."},
+    {"id": 103, "title": "Principal Solutions Architect", "location": {"name": "Dubai, United Arab Emirates"}, "absolute_url": "https://jobs.example/103", "content": ""},
+    {"id": 104, "title": "Lead Solutions Architect", "location": {"name": "Abu Dhabi, UAE"}, "absolute_url": "https://jobs.example/104", "content": ""},
+    {"id": 105, "title": "Account Executive", "location": {"name": "Dubai, United Arab Emirates"}, "absolute_url": "https://jobs.example/105", "content": ""}
+  ]
+}

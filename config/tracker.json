@@ -1,0 +1,50 @@
+{
+  "product_name": "Dubai AI Career Tracker",
+  "owner": "Iryna Tyshchenko",
+  "repository_name": "dubai-ai-career-tracker",
+  "location": {
+    "hard_filter": "Dubai",
+    "country": "United Arab Emirates",
+    "allow_uae_remote_if_dubai_supported": true,
+    "exclude": ["Abu Dhabi"]
+  },
+  "seniority": {
+    "allowed": ["senior", "sr.", "snr", "lead", "architect"],
+    "excluded": ["staff", "principal"]
+  },
+  "target_roles": [
+    "Forward Deployed Engineer", "Applied AI Engineer", "Applied AI Architect",
+    "AI Customer Engineer", "Cloud Customer Engineer", "Delivery Architect",
+    "Solutions Architect", "Field Engineer", "Solutions Engineer", "Deployment Engineer",
+    "Technical Lead", "Technical Consultant", "Applied Value Engineer"
+  ],
+  "profile_strengths": [
+    "C#", ".NET", "Python", "TypeScript", "Azure AI Foundry", "Copilot Studio",
+    "agents", "RAG", "Azure AI Search", "evaluation", "Azure OpenAI",
+    "distributed systems", "Kubernetes", "Terraform", "customer consulting"
+  ],
+  "sponsorship_states": [
+    "explicit_sponsorship", "employer_work_permit", "relocation_support",
+    "unknown", "explicit_no_sponsorship"
+  ],
+  "sources": [
+    {"company": "Databricks", "kind": "greenhouse", "board": "databricks"},
+    {"company": "OpenAI", "kind": "ashby", "board": "openai"},
+    {"company": "Anthropic", "kind": "greenhouse", "board": "anthropic"},
+    {"company": "Celonis", "kind": "greenhouse", "board": "celonis"},
+    {"company": "Palantir", "kind": "lever", "site": "palantir"},
+    {"company": "AWS", "kind": "amazon", "query": "Dubai"},
+    {
+      "company": "Salesforce", "kind": "workday", "search_text": "Dubai",
+      "host": "salesforce.wd12.myworkdayjobs.com", "tenant": "salesforce",
+      "site": "External_Career_Site",
+      "base_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
+    },
+    {
+      "company": "NVIDIA", "kind": "workday", "search_text": "Dubai",
+      "host": "nvidia.wd5.myworkdayjobs.com", "tenant": "nvidia",
+      "site": "NVIDIAExternalCareerSite",
+      "base_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    }
+  ]
+}

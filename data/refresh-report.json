@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-11-12T08:41:43Z",
+  "live_job_count": 8,
+  "sources_ok": [
+    "Databricks",
+    "OpenAI",
+    "Anthropic",
+    "Celonis",
+    "Palantir",
+    "AWS",
+    "Salesforce",
+    "NVIDIA"
+  ],
+  "sources_failed": [],
+  "sources": [
+    {
+      "company": "Databricks",
+      "kind": "greenhouse",
+      "status": "ok",
+      "live_jobs": 0
+    },
+    {
+      "company": "OpenAI",
+      "kind": "ashby",
+      "status": "ok",
+      "live_jobs": 0
+    },
+    {
+      "company": "Anthropic",
+      "kind": "greenhouse",
+      "status": "ok",
+      "live_jobs": 0
+    },
+    {
+      "company": "Celonis",
+      "kind": "greenhouse",
+      "status": "ok",
+      "live_jobs": 2
+    },
+    {
+      "company": "Palantir",
+      "kind": "lever",
+      "status": "ok",
+      "live_jobs": 0
+    },
+    {
+      "company": "AWS",
+      "kind": "amazon",
+      "status": "ok",
+      "live_jobs": 3
+    },
+    {
+      "company": "Salesforce",
+      "kind": "workday",
+      "status": "ok",
+      "live_jobs": 1
+    },
+    {
+      "company": "NVIDIA",
+      "kind": "workday",
+      "status": "ok",
+      "live_jobs": 2
+    }
+  ]
+}
