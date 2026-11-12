@@ -16,7 +16,12 @@
     "Forward Deployed Engineer", "Applied AI Engineer", "Applied AI Architect",
     "AI Customer Engineer", "Cloud Customer Engineer", "Delivery Architect",
     "Solutions Architect", "Field Engineer", "Solutions Engineer", "Deployment Engineer",
-    "Technical Lead", "Technical Consultant", "Applied Value Engineer"
+    "Technical Lead", "Technical Consultant", "Applied Value Engineer",
+    "AI/ML Platform Engineer", "AI Infrastructure Engineer", "AI Systems Engineer",
+    "AI Implementation Engineer", "Integration Architect", "Professional Services Engineer",
+    "Professional Services Consultant", "Professional Services Architect",
+    "Customer Success Architect", "Customer Success Engineer", "Solutions Consultant",
+    "Technical Architect", "Senior Technical Account Manager", "Enterprise AI Architect"
   ],
   "profile_strengths": [
     "C#", ".NET", "Python", "TypeScript", "Azure AI Foundry", "Copilot Studio",
@@ -45,6 +50,27 @@
       "host": "nvidia.wd5.myworkdayjobs.com", "tenant": "nvidia",
       "site": "NVIDIAExternalCareerSite",
       "base_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    },
+    {
+      "company": "Visa", "kind": "workday", "search_text": "Dubai",
+      "host": "visa.wd5.myworkdayjobs.com", "tenant": "visa", "site": "Visa",
+      "base_url": "https://visa.wd5.myworkdayjobs.com/Visa"
+    },
+    {"company": "Cloudflare", "kind": "greenhouse", "board": "cloudflare"},
+    {"company": "Elastic", "kind": "greenhouse", "board": "elastic"},
+    {"company": "talabat", "kind": "smartrecruiters", "company_id": "DeliveryHero"},
+    {
+      "company": "Oracle", "kind": "oracle", "site": "CX_45001",
+      "location": "United Arab Emirates",
+      "base_url": "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    },
+    {
+      "company": "LinkedIn discovery", "kind": "linkedin",
+      "location": "Dubai, United Arab Emirates", "pages": 2, "delay_seconds": 1.0,
+      "queries": [
+        "AI Solutions Architect", "Forward Deployed Engineer", "AI Architect",
+        "AI Engineer", "Data Architect", "Cloud Architect"
+      ]
     }
   ]
 }

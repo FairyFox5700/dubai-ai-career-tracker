@@ -18,7 +18,7 @@ def _parse_date(value):
 
 def score_job(job, now=None):
     title = (job.get("title") or "").casefold()
-    body = (job.get("description_excerpt") or job.get("description") or "").casefold()
+    body = (job.get("_scoring_evidence") or job.get("description_excerpt") or job.get("description") or "").casefold()
     text = f"{title} {body}"
 
     hands_on = 20 if _hit(text, ("engineer", "builder", "hands-on", "implement", "deploy", "coding", "prototype")) else 6

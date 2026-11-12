@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "Id": "oracle-1",
+      "JobId": "300001",
+      "Title": "Senior Technical Architect – Healthcare",
+      "PrimaryLocation": "United Arab Emirates-Dubai",
+      "PostedDate": "2026-11-09",
+      "ExternalJobDescriptionStr": "Design customer AI and cloud solutions with hands-on implementation workshops.",
+      "ExternalCareerSiteUrl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/300001"
+    },
+    {
+      "Id": "oracle-2",
+      "JobId": "300002",
+      "Title": "Principal Cloud Architect",
+      "PrimaryLocation": "United Arab Emirates-Dubai",
+      "ExternalJobDescriptionStr": "Customer cloud architecture.",
+      "ExternalCareerSiteUrl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/300002"
+    }
+  ]
+}

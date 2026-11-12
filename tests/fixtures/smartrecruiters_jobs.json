@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "id": "dh-1",
+      "name": "Senior Solutions Architect - AI",
+      "releasedDate": "2026-11-10T09:00:00Z",
+      "location": {"city": "Dubai", "country": "United Arab Emirates"},
+      "ref": "https://jobs.smartrecruiters.com/DeliveryHero/744000000001",
+      "jobAd": {"sections": {"jobDescription": {"text": "Hands-on customer delivery of AI platforms and agentic systems."}}}
+    },
+    {
+      "id": "dh-2",
+      "name": "Senior Data Engineer",
+      "location": {"city": "Dubai", "country": "United Arab Emirates"},
+      "ref": "https://jobs.smartrecruiters.com/DeliveryHero/744000000002"
+    }
+  ]
+}

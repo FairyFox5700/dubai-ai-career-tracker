@@ -28,6 +28,17 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual("not_posted", score["compensation_status"])
         self.assertNotIn("compensation", score["breakdown"])
 
+    def test_scoring_uses_full_private_evidence_and_rewards_agentic_building(self):
+        prefix = "generic cloud presales " * 80
+        agentic = score_job({
+            "title": "Senior Solutions Architect", "description_excerpt": prefix[:700],
+            "_scoring_evidence": prefix + " hands-on Python RAG MCP agents evaluation Kubernetes implementation",
+        })
+        generic = score_job({
+            "title": "Senior Solutions Architect", "description_excerpt": "generic cloud presales presentations",
+        })
+        self.assertGreater(agentic["total"], generic["total"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -5,7 +5,7 @@ import io
 from urllib.parse import urlparse
 
 FIELDS = (
-    "company", "title", "location", "score", "sponsorship_status", "open_status",
+    "company", "title", "location", "score", "sponsorship_status", "source_status", "open_status",
     "compensation", "raw_application_url", "application_link_clickable",
 )
 
@@ -40,13 +40,15 @@ def jobs_csv(jobs):
         formula = ""
         if _https_url(url):
             escaped = url.replace('"', '""')
-            formula = f'=HYPERLINK("{escaped}","Open official posting")'
+            label = "Open LinkedIn discovery" if job.get("source_status") == "linkedin_discovery" else "Open official posting"
+            formula = f'=HYPERLINK("{escaped}","{label}")'
         writer.writerow({
             "company": _safe_text(job.get("company")),
             "title": _safe_text(job.get("title")),
             "location": _safe_text(job.get("location")),
             "score": job.get("score", {}).get("total", ""),
             "sponsorship_status": _safe_text(job.get("sponsorship_status")),
+            "source_status": _safe_text(job.get("source_status") or "official"),
             "open_status": _safe_text(job.get("open_status")),
             "compensation": _safe_text(_compensation(job.get("compensation"))),
             "raw_application_url": url,
