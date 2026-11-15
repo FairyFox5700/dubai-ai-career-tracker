@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T12:12:37Z",
+  "generated_at": "2026-11-15T12:46:12Z",
   "live_job_count": 28,
-  "official_count": 11,
-  "linkedin_count": 17,
+  "official_count": 13,
+  "linkedin_count": 15,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -11,16 +11,15 @@
     "Palantir",
     "AWS",
     "Salesforce",
+    "NVIDIA",
+    "Visa",
     "Cloudflare",
     "Elastic",
     "talabat",
     "Oracle",
     "LinkedIn discovery"
   ],
-  "sources_failed": [
-    "NVIDIA",
-    "Visa"
-  ],
+  "sources_failed": [],
   "sources": [
     {
       "company": "Databricks",
@@ -67,16 +66,14 @@
     {
       "company": "NVIDIA",
       "kind": "workday",
-      "status": "error",
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-      "jobs_preserved": 2
+      "status": "ok",
+      "live_jobs": 2
     },
     {
       "company": "Visa",
       "kind": "workday",
-      "status": "error",
-      "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-      "jobs_preserved": 0
+      "status": "ok",
+      "live_jobs": 0
     },
     {
       "company": "Cloudflare",
@@ -106,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 34
+      "live_jobs": 33
     }
   ]
 }
