@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T12:46:12Z",
-  "live_job_count": 28,
+  "generated_at": "2026-11-16T13:40:23Z",
+  "live_job_count": 24,
   "official_count": 13,
-  "linkedin_count": 15,
+  "linkedin_count": 11,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -103,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 33
+      "live_jobs": 25
     }
   ]
 }
