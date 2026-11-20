@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T14:27:14Z",
-  "live_job_count": 25,
-  "official_count": 15,
-  "linkedin_count": 10,
+  "generated_at": "2026-11-20T14:01:53Z",
+  "live_job_count": 26,
+  "official_count": 14,
+  "linkedin_count": 12,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -25,7 +25,7 @@
       "company": "Databricks",
       "kind": "greenhouse",
       "status": "ok",
-      "live_jobs": 1
+      "live_jobs": 0
     },
     {
       "company": "OpenAI",
@@ -55,13 +55,13 @@
       "company": "AWS",
       "kind": "amazon",
       "status": "ok",
-      "live_jobs": 3
+      "live_jobs": 5
     },
     {
       "company": "Salesforce",
       "kind": "workday",
       "status": "ok",
-      "live_jobs": 3
+      "live_jobs": 2
     },
     {
       "company": "NVIDIA",
@@ -85,7 +85,7 @@
       "company": "Elastic",
       "kind": "greenhouse",
       "status": "ok",
-      "live_jobs": 1
+      "live_jobs": 0
     },
     {
       "company": "talabat",
@@ -103,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 16
+      "live_jobs": 25
     }
   ]
 }
