@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T13:22:31Z",
-  "live_job_count": 26,
-  "official_count": 14,
-  "linkedin_count": 12,
+  "generated_at": "2026-11-23T15:59:35Z",
+  "live_job_count": 28,
+  "official_count": 15,
+  "linkedin_count": 13,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -55,7 +55,7 @@
       "company": "AWS",
       "kind": "amazon",
       "status": "ok",
-      "live_jobs": 5
+      "live_jobs": 6
     },
     {
       "company": "Salesforce",
@@ -103,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 28
+      "live_jobs": 31
     }
   ]
 }
