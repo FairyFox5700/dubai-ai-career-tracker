@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T15:59:35Z",
-  "live_job_count": 28,
+  "generated_at": "2026-11-24T15:54:12Z",
+  "live_job_count": 27,
   "official_count": 15,
-  "linkedin_count": 13,
+  "linkedin_count": 12,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -16,10 +16,11 @@
     "Cloudflare",
     "Elastic",
     "talabat",
-    "Oracle",
     "LinkedIn discovery"
   ],
-  "sources_failed": [],
+  "sources_failed": [
+    "Oracle"
+  ],
   "sources": [
     {
       "company": "Databricks",
@@ -96,14 +97,15 @@
     {
       "company": "Oracle",
       "kind": "oracle",
-      "status": "ok",
-      "live_jobs": 0
+      "status": "error",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "jobs_preserved": 0
     },
     {
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 31
+      "live_jobs": 18
     }
   ]
 }
