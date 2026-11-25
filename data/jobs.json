@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T15:54:12Z",
-  "live_job_count": 27,
+  "generated_at": "2026-11-25T15:37:15Z",
+  "live_job_count": 24,
   "official_count": 15,
-  "linkedin_count": 12,
-  "total_with_stale": 27,
+  "linkedin_count": 9,
+  "total_with_stale": 24,
   "jobs": [
     {
       "id": "Celonis:7800552003",
@@ -90,7 +90,7 @@
       "open_status": "verified_open",
       "stale": false,
       "score": {
-        "total": 90,
+        "total": 89,
         "breakdown": {
           "hands_on_engineering": 20,
           "ai_cloud": 20,
@@ -98,7 +98,7 @@
           "customer_delivery": 15,
           "profile_skills": 9,
           "sponsorship": 6,
-          "freshness_source": 5
+          "freshness_source": 4
         },
         "sponsorship_red_flag": false,
         "compensation_status": "not_posted"
@@ -123,7 +123,7 @@
       "open_status": "verified_open",
       "stale": false,
       "score": {
-        "total": 90,
+        "total": 89,
         "breakdown": {
           "hands_on_engineering": 20,
           "ai_cloud": 20,
@@ -131,7 +131,7 @@
           "customer_delivery": 15,
           "profile_skills": 9,
           "sponsorship": 6,
-          "freshness_source": 5
+          "freshness_source": 4
         },
         "sponsorship_red_flag": false,
         "compensation_status": "not_posted"
@@ -156,7 +156,7 @@
       "open_status": "verified_open",
       "stale": false,
       "score": {
-        "total": 87,
+        "total": 86,
         "breakdown": {
           "hands_on_engineering": 20,
           "ai_cloud": 20,
@@ -164,7 +164,7 @@
           "customer_delivery": 15,
           "profile_skills": 6,
           "sponsorship": 6,
-          "freshness_source": 5
+          "freshness_source": 4
         },
         "sponsorship_red_flag": false,
         "compensation_status": "not_posted"
@@ -506,7 +506,7 @@
       "company": "Teamware Solutions",
       "title": "Senior Agentic AI Forward Deployed Engineer (FDE) 🚀",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-agentic-ai-forward-deployed-engineer-fde-%F0%9F%9A%80-at-teamware-solutions-4487215691?position=7&pageNum=2&refId=rkIXH65z0KrJTnX5%2BXvm5Q%3D%3D&trackingId=d7sU7BdjZOnMn0SLeJWlJA%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/senior-agentic-ai-forward-deployed-engineer-fde-%F0%9F%9A%80-at-teamware-solutions-4487215691?position=4&pageNum=2&refId=2yhpZ1OeerbtNeuNFPzTaA%3D%3D&trackingId=m0lHqOTlL0j6IcOmtGIqxQ%3D%3D",
       "posted_at": "2026-11-04",
       "description_excerpt": "Senior Agentic AI Forward Deployed Engineer (FDE) 🚀",
       "role_family": "forward_deployed_ai",
@@ -539,7 +539,7 @@
       "company": "Property Finder",
       "title": "Senior Forward Deployed AI Engineer",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-forward-deployed-ai-engineer-at-property-finder-4486164397?position=6&pageNum=0&refId=A1MXH8dmM%2F0dY%2FWELg6KNw%3D%3D&trackingId=ApbBGsqEy4iRE1fdlOSPiQ%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/senior-forward-deployed-ai-engineer-at-property-finder-4486164397?position=5&pageNum=0&refId=PROS6Mh0kavgqDacrLAhLQ%3D%3D&trackingId=0Aamj1n2Hf7R9wMJ7pVXtg%3D%3D",
       "posted_at": "2026-11-13",
       "description_excerpt": "Senior Forward Deployed AI Engineer",
       "role_family": "forward_deployed_ai",
@@ -572,7 +572,7 @@
       "company": "Capgemini Invent",
       "title": "Senior Azure AI Architect",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-azure-ai-architect-at-capgemini-invent-4480347862?position=1&pageNum=0&refId=iWnUtR%2FTj8Am5ZqLZOv5qA%3D%3D&trackingId=0BwAfblUMPeHtNNRVGJSNA%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/senior-azure-ai-architect-at-capgemini-invent-4480347862?position=7&pageNum=0&refId=qlpjcO9bnsvlmNwdAqXQKw%3D%3D&trackingId=D%2FgAERipUY5Jylq0pybkhg%3D%3D",
       "posted_at": "2026-10-16",
       "description_excerpt": "Senior Azure AI Architect",
       "role_family": "ai_architecture",
@@ -600,45 +600,12 @@
       }
     },
     {
-      "id": "LinkedIn:4451340293",
-      "source_id": "4451340293",
-      "company": "Max Accelerate Ventures",
-      "title": "Senior AI & Solutions Engineer",
-      "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-ai-solutions-engineer-at-max-accelerate-ventures-4451340293?position=2&pageNum=2&refId=9MDztcA1FdW%2Bt5naZ55zPA%3D%3D&trackingId=n%2BBvzbt%2BTewYzHxjrUTaLg%3D%3D",
-      "posted_at": "2026-08-09",
-      "description_excerpt": "Senior AI & Solutions Engineer",
-      "role_family": "solutions_engineering",
-      "match_reason": "solutions engineering with AI evidence",
-      "sponsorship_status": "employer_work_permit",
-      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
-      "compensation": null,
-      "source": "linkedin_guest",
-      "source_status": "linkedin_discovery",
-      "open_status": "linkedin_active",
-      "stale": false,
-      "score": {
-        "total": 54,
-        "breakdown": {
-          "hands_on_engineering": 20,
-          "ai_cloud": 20,
-          "architecture": 4,
-          "customer_delivery": 3,
-          "profile_skills": 0,
-          "sponsorship": 6,
-          "freshness_source": 1
-        },
-        "sponsorship_red_flag": false,
-        "compensation_status": "not_posted"
-      }
-    },
-    {
       "id": "LinkedIn:4472286130",
       "source_id": "4472286130",
       "company": "XenonStack Moments",
       "title": "Solution Architect, Agentic Systems - Dubai",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/solution-architect-agentic-systems-dubai-at-xenonstack-moments-4472286130?position=8&pageNum=0&refId=iWnUtR%2FTj8Am5ZqLZOv5qA%3D%3D&trackingId=Ju1eyfrShFqPJLTi9I7ZWA%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/solution-architect-agentic-systems-dubai-at-xenonstack-moments-4472286130?position=5&pageNum=2&refId=mAaa9WhhFi1aTOs1pNks2A%3D%3D&trackingId=3o9OD%2FCLdSIk0yj8116YRg%3D%3D",
       "posted_at": "2026-09-26",
       "description_excerpt": "Solution Architect, Agentic Systems - Dubai",
       "role_family": "solutions_architecture",
@@ -671,42 +638,9 @@
       "company": "Apparel Group",
       "title": "Enterprise Architect - AI & Digital Platforms",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/enterprise-architect-ai-digital-platforms-at-apparel-group-4443372983?position=9&pageNum=0&refId=WPMQO%2BXRgwXXyqYltKYl1A%3D%3D&trackingId=0hTwjeiOOJA5O5OE8rDHIA%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/enterprise-architect-ai-digital-platforms-at-apparel-group-4443372983?position=6&pageNum=2&refId=%2B79%2FuShjTthTtfsPtrBE%2Bw%3D%3D&trackingId=3qAIIWT9DVCwLACm%2BTlrig%3D%3D",
       "posted_at": "2026-11-06",
       "description_excerpt": "Enterprise Architect - AI & Digital Platforms",
-      "role_family": "ai_architecture",
-      "match_reason": "ai architecture with AI evidence",
-      "sponsorship_status": "employer_work_permit",
-      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
-      "compensation": null,
-      "source": "linkedin_guest",
-      "source_status": "linkedin_discovery",
-      "open_status": "linkedin_active",
-      "stale": false,
-      "score": {
-        "total": 52,
-        "breakdown": {
-          "hands_on_engineering": 6,
-          "ai_cloud": 20,
-          "architecture": 15,
-          "customer_delivery": 3,
-          "profile_skills": 0,
-          "sponsorship": 6,
-          "freshness_source": 2
-        },
-        "sponsorship_red_flag": false,
-        "compensation_status": "not_posted"
-      }
-    },
-    {
-      "id": "LinkedIn:4484942410",
-      "source_id": "4484942410",
-      "company": "Capgemini Engineering",
-      "title": "AI Architect",
-      "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/ai-architect-at-capgemini-engineering-4484942410?position=7&pageNum=0&refId=iWnUtR%2FTj8Am5ZqLZOv5qA%3D%3D&trackingId=Ii27ERaFHG05Hy7sW%2FBrzw%3D%3D",
-      "posted_at": "2026-10-29",
-      "description_excerpt": "AI Architect",
       "role_family": "ai_architecture",
       "match_reason": "ai architecture with AI evidence",
       "sponsorship_status": "employer_work_permit",
@@ -737,7 +671,7 @@
       "company": "Delphi Consulting",
       "title": "Data & AI Architect",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/data-ai-architect-at-delphi-consulting-4483431131?position=3&pageNum=0&refId=WPMQO%2BXRgwXXyqYltKYl1A%3D%3D&trackingId=Q65Mf0V1wMQrd8IMgpUH6w%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/data-ai-architect-at-delphi-consulting-4483431131?position=3&pageNum=0&refId=rM%2ByWTujrTQdsIEU3B6toA%3D%3D&trackingId=CcdOkv%2BqwMfT07V%2FC33%2FEQ%3D%3D",
       "posted_at": "2026-10-30",
       "description_excerpt": "Data & AI Architect",
       "role_family": "ai_architecture",
@@ -765,45 +699,12 @@
       }
     },
     {
-      "id": "LinkedIn:4461698874",
-      "source_id": "4461698874",
-      "company": "EPAM Systems",
-      "title": "Senior AI Cloud Architect",
-      "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-ai-cloud-architect-at-epam-systems-4461698874?position=9&pageNum=2&refId=0WlAMFLMl4Hj5KD7jr7kaA%3D%3D&trackingId=bJT2ZgNFz%2FT36uIr%2FOjZXA%3D%3D",
-      "posted_at": "2026-09-03",
-      "description_excerpt": "Senior AI Cloud Architect",
-      "role_family": "ai_architecture",
-      "match_reason": "ai architecture with AI evidence",
-      "sponsorship_status": "employer_work_permit",
-      "sponsorship_evidence": "UAE employment normally uses an employer-sponsored work-permit and residence-visa pathway; this listing does not state the employer's sponsorship commitment.",
-      "compensation": null,
-      "source": "linkedin_guest",
-      "source_status": "linkedin_discovery",
-      "open_status": "linkedin_active",
-      "stale": false,
-      "score": {
-        "total": 51,
-        "breakdown": {
-          "hands_on_engineering": 6,
-          "ai_cloud": 20,
-          "architecture": 15,
-          "customer_delivery": 3,
-          "profile_skills": 0,
-          "sponsorship": 6,
-          "freshness_source": 1
-        },
-        "sponsorship_red_flag": false,
-        "compensation_status": "not_posted"
-      }
-    },
-    {
       "id": "LinkedIn:4422405386",
       "source_id": "4422405386",
       "company": "MultiBank Group",
       "title": "Senior AI Architect",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/senior-ai-architect-at-multibank-group-4422405386?position=7&pageNum=0&refId=WPMQO%2BXRgwXXyqYltKYl1A%3D%3D&trackingId=NrnXoDA%2FSRpKwToOKhZCOg%3D%3D",
+      "url": "https://ae.linkedin.com/jobs/view/senior-ai-architect-at-multibank-group-4422405386?position=6&pageNum=0&refId=rM%2ByWTujrTQdsIEU3B6toA%3D%3D&trackingId=mpwo3bcJ0VVUluUOk0SeXQ%3D%3D",
       "posted_at": "2026-06-02",
       "description_excerpt": "Senior AI Architect",
       "role_family": "ai_architecture",
@@ -831,14 +732,14 @@
       }
     },
     {
-      "id": "LinkedIn:4488600891",
-      "source_id": "4488600891",
+      "id": "LinkedIn:4489281263",
+      "source_id": "4489281263",
       "company": "ByteDance",
-      "title": "GenAI Solution Architect - BytePlus - South Asia Market",
+      "title": "GenAI Solution Architect - Video, Image & Multimodal GenaAI (AIGC) - (Chinese Speaker)",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/genai-solution-architect-byteplus-south-asia-market-at-bytedance-4488600891?position=4&pageNum=0&refId=iWnUtR%2FTj8Am5ZqLZOv5qA%3D%3D&trackingId=VI5KXYEgm7YUqsZMfH7qMw%3D%3D",
-      "posted_at": "2026-11-10",
-      "description_excerpt": "GenAI Solution Architect - BytePlus - South Asia Market",
+      "url": "https://ae.linkedin.com/jobs/view/genai-solution-architect-video-image-multimodal-genaai-aigc-chinese-speaker-at-bytedance-4489281263?position=5&pageNum=0&refId=1TjlQOZLtj1DoBPcS5GLuw%3D%3D&trackingId=zRxnYF3xo7HysbVF8ELBYw%3D%3D",
+      "posted_at": "2026-11-12",
+      "description_excerpt": "GenAI Solution Architect - Video, Image & Multimodal GenaAI (AIGC) - (Chinese Speaker)",
       "role_family": "solutions_architecture",
       "match_reason": "solutions architecture with AI evidence",
       "sponsorship_status": "employer_work_permit",
@@ -864,14 +765,14 @@
       }
     },
     {
-      "id": "LinkedIn:4489281263",
-      "source_id": "4489281263",
+      "id": "LinkedIn:4488600891",
+      "source_id": "4488600891",
       "company": "ByteDance",
-      "title": "GenAI Solution Architect - Video, Image & Multimodal GenaAI (AIGC) - (Chinese Speaker)",
+      "title": "GenAI Solution Architect - BytePlus - South Asia Market",
       "location": "Dubai, United Arab Emirates",
-      "url": "https://ae.linkedin.com/jobs/view/genai-solution-architect-video-image-multimodal-genaai-aigc-chinese-speaker-at-bytedance-4489281263?position=5&pageNum=0&refId=iWnUtR%2FTj8Am5ZqLZOv5qA%3D%3D&trackingId=AKDQCUN2csqMu29RUFNhmw%3D%3D",
-      "posted_at": "2026-11-12",
-      "description_excerpt": "GenAI Solution Architect - Video, Image & Multimodal GenaAI (AIGC) - (Chinese Speaker)",
+      "url": "https://ae.linkedin.com/jobs/view/genai-solution-architect-byteplus-south-asia-market-at-bytedance-4488600891?position=4&pageNum=0&refId=1TjlQOZLtj1DoBPcS5GLuw%3D%3D&trackingId=DOoLDq%2Bpmy%2Fbo8lb6VEDEA%3D%3D",
+      "posted_at": "2026-11-10",
+      "description_excerpt": "GenAI Solution Architect - BytePlus - South Asia Market",
       "role_family": "solutions_architecture",
       "match_reason": "solutions architecture with AI evidence",
       "sponsorship_status": "employer_work_permit",
@@ -882,7 +783,7 @@
       "open_status": "linkedin_active",
       "stale": false,
       "score": {
-        "total": 39,
+        "total": 38,
         "breakdown": {
           "hands_on_engineering": 6,
           "ai_cloud": 6,
@@ -890,7 +791,7 @@
           "customer_delivery": 3,
           "profile_skills": 0,
           "sponsorship": 6,
-          "freshness_source": 3
+          "freshness_source": 2
         },
         "sponsorship_red_flag": false,
         "compensation_status": "not_posted"
