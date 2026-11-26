@@ -5,11 +5,16 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
-  group: refresh
+  group: pages
   cancel-in-progress: false
 jobs:
   refresh:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -25,3 +30,10 @@ jobs:
           git add data/jobs.json data/jobs.csv data/refresh-report.json
           git diff --cached --quiet || git commit -m "chore: refresh Dubai roles"
           git push
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+      - name: Deploy refreshed tracker to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
