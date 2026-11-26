@@ -34,6 +34,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: .
+      - name: Allow artifact metadata to propagate
+        run: sleep 15
       - name: Deploy refreshed tracker to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
