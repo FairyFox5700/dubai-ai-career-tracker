@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T07:37:27Z",
-  "live_job_count": 24,
-  "official_count": 15,
-  "linkedin_count": 9,
+  "generated_at": "2026-11-26T15:19:12Z",
+  "live_job_count": 27,
+  "official_count": 16,
+  "linkedin_count": 11,
   "sources_ok": [
     "Databricks",
     "OpenAI",
@@ -61,7 +61,7 @@
       "company": "Salesforce",
       "kind": "workday",
       "status": "ok",
-      "live_jobs": 2
+      "live_jobs": 3
     },
     {
       "company": "NVIDIA",
@@ -103,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 24
+      "live_jobs": 28
     }
   ]
 }
