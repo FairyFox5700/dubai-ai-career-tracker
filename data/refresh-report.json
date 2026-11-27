@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:19:12Z",
+  "generated_at": "2026-11-27T15:06:54Z",
   "live_job_count": 27,
   "official_count": 16,
   "linkedin_count": 11,
@@ -103,7 +103,7 @@
       "company": "LinkedIn discovery",
       "kind": "linkedin",
       "status": "ok",
-      "live_jobs": 28
+      "live_jobs": 21
     }
   ]
 }
